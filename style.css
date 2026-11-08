@@ -1,0 +1,105 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* My colors: #1D3557 #457B9D #F1FAEE #FFFFFF */
+
+body {
+  background-color: #F1FAEE;
+  color: #1D3557;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #1D3557;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+/* Main section */
+main {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Cards */
+.card {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #457B9D;
+  border-radius: 12px;
+  text-align: left;
+}
+
+/* Profile card */
+.profile-card {
+  width: 30%;
+}
+
+/* About card */
+.about {
+  width: 60%;
+}
+
+/* Contact card */
+.contact {
+  display: block;
+  width: 92%;
+  margin: 20px auto;
+}
+
+/* Card headings */
+.subheading {
+  color: #457B9D;
+  font-size: 22px;
+}
+
+/* Profile picture */
+.profile-img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border: 4px solid #457B9D;
+  border-radius: 50%;
+}
+
+/* Favorite tags */
+.tag {
+  display: inline-block;
+  background-color: #457B9D;
+  color: #FFFFFF;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Links */
+a {
+  color: #457B9D;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #1D3557;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
